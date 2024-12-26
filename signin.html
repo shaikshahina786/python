@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signin Page</title>
+    <script src="signin.js"></script>
+    
+    <link rel="stylesheet" href="signin1.css"/>
+</head>
+<body>
+    <div class="menu">
+    <ul>
+        <li>Home</li>
+        <li>Gallery</li>
+        <li>Resume</li>
+    </ul>
+    </div>
+    <div class="menus">
+    </div>
+    <div class="container">
+    <form class="subclass">
+        <h3>Signin</h3>
+    <fieldset>
+        <label for="username"><b>Name</b></lable><br>
+        <input type="text" name="username" placeholder="username" oninput="valid()"><br>
+        <label for="password"><b>Password</b></lable><br>
+        <input type="text" name="password" placeholder="password"></input><br>
+        <button onclick="valid()">Signin</button><br>
+    </fieldset>
+    <select>
+        <optgroup label="groups">
+            <option value="Betch">CSE</option>
+            <option value="Btech">ECE</option>
+            <option value="Degree">BSC</option>
+            <option value="Degree">ARTs</option>
+        </optgroup>
+    </select>
+    </form>
+    </div>
+    
+</body>
+</html>
